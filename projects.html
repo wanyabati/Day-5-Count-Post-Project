@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Blog Page</title>
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/projects.css"/>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/img/Dumbways-Logo.png" style="width: 50px;" alt="">
+            </a>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home </a>
+                </li>
+                <li>
+                    <a href="projects.html">Blog </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Blog -->
+    <!-- Form -->
+    <div class="project">
+        <div class="project-form">
+          <div class="form-container">
+            <form onsubmit="addProject(event)">
+              <h1>Create Post Blog</h1>
+              <div>
+                <label for="input-project-title">Title</label>
+                <input id="input-project-title" />
+              </div>
+              <div>
+                <label for="input-project-content">Content</label>
+                <textarea id="input-project-content"></textarea>
+              </div>
+              <div>
+                <label>Upload Image</label>
+                <div class="input-project-image-group">
+                  <label for="input-project-image">
+                    <p>Attach File</p>
+                  </label>
+                  <input type="file" id="input-project-image" hidden />
+                </div>
+              </div>
+              <div class="button-group">
+                <button>Post Blog</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="line" />
+        <div id="contents" class="project-list">
+          <!-- dynamic content would be here -->
+          <div class="project-list-item">
+            <div class="project-image">
+              <img src="assets/img/Jennie-Kim.jpeg" alt="" />
+            </div>
+            <div class="project-content">
+              <div class="btn-group">
+                <button class="btn-edit">Edit Post</button>
+                <button class="btn-post">Post Blog</button>
+              </div>
+              <h1>
+                <a href="projects-detail.html" target="_blank"
+                  >Kim Jennie Most Popular Girls From Blackpink</a
+                >
+              </h1>
+              <div class="detail-project-content">
+                04 Apr 2022 18:30 WIB | Wanya Batirillian
+              </div>
+              <p>
+                Kim Jennie a.k.a Jennie from Blackpink on YG Entertaiment is a Girlgroup was born on Seoul 16 January 1996. The girl born from seoul is a trainer YG Entertaiment at 14 years old or on 2010 is she first training at YG Entertaiment.
+                ipsum dolor sit amet consectetur, adipisicing elit. Dolore commodi nam modi vitae aliquam blanditiis repellendus asperiores quam iusto facere quis voluptate, deleniti aliquid maiores, voluptatibus iure, tempora voluptates. Eius.
+              </p>
+              <div id="paragraph"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- List Blog -->
+        <hr class="line" />
+        <div id="contents" class="project-list">
+      <script src="https://kit.fontawesome.com/9abab0ea8b.js" crossorigin="anonymous"></script>
+      <script src="./assets/js/projects.js"></script>
+    </div>
+</body>
+
+</html>

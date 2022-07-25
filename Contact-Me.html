@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <script src="assets/js/form.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/img/Dumbways-Logo.png" alt="" class="dumbways">
+            </a>
+            <ul>
+                <li>
+                <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="projects.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    
+    <h1>GET IN TOUCH</h1>
+    <div style="
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            align-items: center;
+            margin-top: -5vh;
+            
+            ">
+        <form action="">
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="font-size: 20px; font-weight: 700;">Name</label>
+                <input id="name" type="text" required placeholder="Input Your Full Name" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-attachment: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                ">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="font-size: 20px; font-weight: 700;">Email</label>
+                <input id="email" type="email" required placeholder="Input Your Email" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-attachment: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                ">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="phone" style="font-size: 20px; font-weight: 700;">Phone Number</label>
+                <input id="phone" type="text" required placeholder="Input Your Phone Number" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-attachment: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                ">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="subject" style="font-size: 20px; font-weight: 700;">Subject</label>
+                <select id="subject"style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-attachment: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                ">
+                    <option hidden>Choose Category</option>
+                    <option>Let's Talk</option>
+                    <option>Let's Collaboration</option>
+                    <option>I am Hiring</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="message" style="font-size: 20px; font-weight: 700;">Your Message</label>
+                <textarea name="" id="message" required placeholder="Input Your Message" cols="20" rows="10" style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-attachment: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 8px;
+                    margin-top: 5px;
+                    resize: none;
+                    height: 100px;
+                "></textarea>
+            </div>
+
+            <button type="submit" onclick="getData('event')" style="
+                background-color: #ec4437;
+                color: white;
+                border: none;
+                padding: 8px 30px;
+                border-radius: 10px;
+                cursor: pointer;
+            ">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

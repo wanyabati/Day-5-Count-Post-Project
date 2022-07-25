@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.dumbways {
+    width: 50px;
+}
+
+.navbar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c2bebe;
+    height: 7vh;
+    display: flex;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+
+}
+
+nav .left-side {
+    flex: 20%;
+    padding-left: 50px;
+}
+
+nav .right-side {
+    text-decoration: none;
+    flex: 0%;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right    : 25px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: #ec4437;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    background: #000000;
+    padding: 8px 20px;
+    margin-right: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 25%;
+    border: 1px solid lightblue;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    
+}
+
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-content .left {
+    margin-right: -200px;
+    flex: 25%;
+}
+
+.container-content .right {
+    margin-left: 150px;
+    flex: 50%;
+}
+
+.Jennie {
+    text-align: center;
+    font-size: 15px;
+    border: 0px solid black;
+    width: 325px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(50,50,50);
+    margin: auto;
+    margin-top: 25px;
+}
+
+.Jennie h2 {
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+
+.Jennie p {
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.container h2 {
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+
+.tombol {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 30px;
+    margin-top: 8px;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    box-shadow: 0px 0px 5px rgb(50, 50, 50);
+    transition: 0.15s;
+}
+
+.download {
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+
+.logo {
+    display: inline;
+    width: 40px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+    border-radius: 150%;
+}
+
+
